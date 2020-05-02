@@ -1,0 +1,16 @@
+package com.gianluz.slackalo
+
+internal const val BLOCKS = "blocks"
+internal const val TYPE = "type"
+internal const val TEXT = "text"
+internal const val EMOJI = "emoji"
+internal const val IMAGE_URL = "image_url"
+internal const val ALT_TEXT = "alt_text"
+internal const val TITLE = "title"
+internal const val ACCESSORY = "accessory"
+internal const val FIELDS = "fields"
+internal const val TYPE_SECTION = "section"
+internal const val TYPE_PLAIN_TEXT = "plain_text"
+internal const val TYPE_MRKDWN = "mrkdwn"
+internal const val TYPE_IMAGE = "image"
+internal const val TYPE_DIVIDER = "divider"
