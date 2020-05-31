@@ -37,8 +37,8 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/gianluz/slackalo")
             credentials {
-                username = loadSecret("GITHUB_PACKAGES_USERNAME")
-                password = loadSecret("GITHUB_PACKAGES_PASSWORD")
+                username = loadSecret("GH_PACKAGES_USERNAME")
+                password = loadSecret("GH_PACKAGES_PASSWORD")
             }
         }
     }
