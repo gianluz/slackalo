@@ -19,7 +19,7 @@ plugins {
 apply from: file('maven-publish.gradle')
 
 group 'com.gianluz'
-version '1.0'
+version '1.2'
 
 repositories {
     mavenCentral()
