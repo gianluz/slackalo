@@ -1,4 +1,4 @@
-@file:DependsOn("com.gianluz:slackalo:1.0")
+@file:DependsOn("com.gianluz:slackalo:1.1")
 
 import com.gianluz.slackalo.DefaultWebHookClient
 import com.gianluz.slackalo.blocks
@@ -13,5 +13,5 @@ danger(args) {
         }
     }
     val client = DefaultWebHookClient()
-    //client.sendWebHook(System.getenv("SLACK_WEBHOOK_URL"), message)
+    client.sendWebHook(System.getenv("SLACK_WEBHOOK_URL"), message)
 }
